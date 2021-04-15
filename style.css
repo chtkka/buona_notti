@@ -203,6 +203,10 @@ section {
     font-weight: bold;
 }
 
+.sitemap span{
+    padding: 40px 0px 40px 0px;
+}
+
 .circles{
     display: flex;
     justify-content: space-between;
@@ -308,6 +312,10 @@ button:active{
     background-image: url('img/about.jpg');
     width: 70%;
     height: 60vh;
+}
+
+.footerImg{
+    align-self: center;
 }
 
 .footerImg img{
