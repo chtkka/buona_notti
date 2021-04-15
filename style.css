@@ -88,6 +88,7 @@ section {
 
 .splash content h2{
     margin-bottom: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .splash .overlay2{
@@ -154,6 +155,7 @@ section {
     align-items: center;
     margin: 0px 200px 0px 200px;
     width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .visit .img{
@@ -165,10 +167,11 @@ section {
 .visit-text h3{ 
     font-size:2em;
     font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
 }
 
 .visit-text p{
-    font-size: 1.67em;;
+    font-size: 1.3em;
 }
 
 .owner h2{
@@ -238,6 +241,8 @@ button{
     background-color:#fff!important;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 1.1em;
+    font-family: 'Montserrat',sans-serif;
 }
 
 button:focus{
@@ -258,6 +263,7 @@ button:active{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    background-color: #fff;
 }
 
 .product-text{
@@ -270,8 +276,13 @@ button:active{
     font-size: 2.6em;
 }
 
-.product h3{
+.product-text h3{
     font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card h3{
+    font-weight: bold;
 }
 
 .about content {
@@ -291,10 +302,12 @@ button:active{
     align-items: center;
     margin: 0px 200px 0px 200px;
     width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .about-text h3{
     font-size: 2em;
+    font-family: 'Montserrat',sans-serif;
 }
 
 .about-text p {
