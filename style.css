@@ -308,3 +308,7 @@ button:active{
     width: 70%;
     height: 60vh;
 }
+
+.footerImg img{
+    width: 80px;
+}
