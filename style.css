@@ -255,12 +255,6 @@ button:active{
     font-size: 1.5em;
 }
 
-.about content .img{
-    height: 442px;
-    width: 720px;
-    border: 1px solid black;
-}
-
 .about content {
     display: flex;
     justify-content: space-between;
@@ -274,8 +268,10 @@ button:active{
 }
 
 .about-text{
-    width: 422px;
-    margin-left: 115px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 200px 0px 200px;
+    width: 50%;
 }
 
 .about-text h3{
@@ -298,4 +294,10 @@ button:active{
 .card button{
     height: 40px;
     width: 160px;
+}
+
+.about .img{
+    background-image: url('img/about.jpg');
+    width: 70%;
+    height: 60vh;
 }
