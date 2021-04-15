@@ -58,6 +58,7 @@ section {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .splash {
@@ -257,13 +258,13 @@ button:active{
     width: 270px;
     height: 420px;
     border: 1px solid black;
+    background-color: #fff;
 }
 .card-holder{
     width: 911px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
 }
 
 .product-text{
@@ -384,4 +385,15 @@ input:active{
 .news-flex h2{
     font-size: 2em;
     text-align: center;
+}
+
+.owner .overlay {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 1) 100%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
 }
