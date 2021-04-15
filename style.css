@@ -34,6 +34,13 @@ nav {
     padding-bottom: 137px;
 }
 
+.splash img{
+    width: 75px;
+    position: absolute;
+    left: 100px;
+    top: 5px;
+}
+
 a,
 a:visited,
 a:hover,
