@@ -54,7 +54,7 @@ section {
 }
 
 .owner {
-    background-image: url('img/owner.png');
+    background-image: url('img/owner.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,13 +62,14 @@ section {
 }
 
 .splash {
-    background-image: url('img/hero.jpg');
+    background-image: url('img/hero-section.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
 
 }
+
 
 .break {
     flex-basis: 100%;
@@ -160,7 +161,7 @@ section {
 }
 
 .visit .img{
-    background-image: url('img/visit.jpg');
+    background-image: url('img/visit-us.jpg');
     width: 70%;
     height: 60vh;
 }
@@ -337,7 +338,7 @@ button:active{
 }
 
 .about .img{
-    background-image: url('img/about.jpg');
+    background-image: url('img/about-us.jpg');
     width: 70%;
     height: 60vh;
 }
